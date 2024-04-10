@@ -8,6 +8,7 @@ This project is EvaMultiplayer Client example which uses:
 Project does not contain any graphics or physics. 
 
 It contains multiplayer client logic which helps:
+
 +) Receive and send Multiplayer Data
    
 +) Draw other players and their bots/enemies
