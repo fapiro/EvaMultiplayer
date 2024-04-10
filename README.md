@@ -1,5 +1,5 @@
 Don't download or compile (this is cut off free exampe, not complete). 
-Simply for demostration purposes and view here in git.
+Simply for demonstration purposes and view here in git.
 
 This project is EvaMultiplayer Client example which uses:
  * EvaArchitecture (see UnityAssetStore)
