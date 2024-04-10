@@ -10,22 +10,14 @@ namespace Core.Helpers.AsyncUtils
 {
     public static class AsyncExtensions
     {
-        private const int MINIMUM_TASK_DELAY_MILLISECONDS = 5;
-        
         /// <summary>
         /// Helper to call async from sync
         /// </summary>
         /// <param name="task"></param>
-        public static async void CallSyncNoWait(this Task task)
+        public static async void FireAndForget(this Task task)
         {
             await task;
         }
-        
-        //do not use this generic method, because it is not tested
-        /*public static async Task<T> CallAsyncFromSync<T>(this Task<T> task)
-        {
-            return await task;
-        }*/
         
         /// <summary>
         /// Converts Task to Coroutine
